@@ -1,0 +1,1 @@
+SELECT m.id AS id,m.name AS name FROM movies AS m JOIN genres AS g ON m.id_genres = g.id AND g.description = 'Action'

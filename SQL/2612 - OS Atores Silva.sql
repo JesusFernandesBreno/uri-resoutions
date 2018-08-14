@@ -1,0 +1,1 @@
+SELECT DISTINCT(m.id), m.name FROM movies_actors as mv JOIN movies as m ON mv.id_movies = m.id JOIN actors as a ON a.id = mv.id_actors JOIN genres as g ON m.id_genres = g.id AND g.description = 'Action' AND  (a.name = 'Marcelo Silva' OR a.name = 'Miguel Silva')

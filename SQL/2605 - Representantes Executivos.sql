@@ -1,0 +1,1 @@
+SELECT pdts.name,pvds.name FROM products as pdts JOIN providers as pvds ON pdts.id_providers = pvds.id AND pdts.id_categories = 6
