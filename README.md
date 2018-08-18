@@ -1,2 +1,2 @@
-# URI 
-Resoluções dos problemas da plataforma URI(https://urionlinejudge.com.br)
+# URI
+Minhas resoluções dos problemas na plataforma URI(https://urionlinejudge.com.br)
