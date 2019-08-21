@@ -6,4 +6,4 @@ My Problems Resolutions from URI
 
 ## Links
 
-- [URI Score] (https://www.urionlinejudge.com.br/judge/pt/users/university/upm) )
+* [URI Score] (https://www.urionlinejudge.com.br/judge/pt/users/university/upm) )
