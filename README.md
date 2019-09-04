@@ -6,4 +6,4 @@ My Problems Resolutions from URI
 
 ## Links
 
-* [My Score] (https://www.urionlinejudge.com.br/judge/pt/users/university/upm/) - UPM Ranking
+* [My Score](https://www.urionlinejudge.com.br/judge/pt/users/university/upm/) - UPM Ranking
