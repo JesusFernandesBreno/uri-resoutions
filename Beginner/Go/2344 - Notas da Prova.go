@@ -1,30 +1,21 @@
 package main
 
-import (
-	"fmt"
-	"bufio"
-	"os"
-	"strconv"
-	"strings"
-)
+import "fmt"
 
 func main(){
-	reader := bufio.NewReader(os.Stdin)
-	text, _ := reader.ReadString('\n')
-	text = strings.Replace(text, "\n", "", -1)
+	var num int
+	fmt.Scanf("%d", &num)
 
-	num, _ := strconv.Atoi(text)
-
-	if num == 0 {
-		fmt.Println("E")
-	}else if num < 35 {
+	if num < 35 {
 		fmt.Println("D")
 	}else if num < 60 {
 		fmt.Println("C")
-	} else if num < 85 {
+	}else if num < 85 {
 		fmt.Println("B")
-	}else {
+	} else if num < 100 {
 		fmt.Println("A")
+	}else {
+		fmt.Println("E")
 	}	
 
 }
