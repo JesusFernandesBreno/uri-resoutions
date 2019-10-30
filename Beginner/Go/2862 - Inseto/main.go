@@ -1,22 +1,24 @@
 package main
 
-import "fmt"
+import (
+	"fmt" 
+)
 
 func main(){
 	var qtd int
 	fmt.Scanf("%d", &qtd)
 
-	var power int
+	powers := make([]int, qtd)
 
 	for i := 0; i < qtd; i++{
-		
-		fmt.Scanf("%d", &power)
+		fmt.Scanf("%d", &powers[i])
+	}
 
-		if(power > 8000){
-			fmt.Printf("Mais de 8000!\n")
+	for _, v := range powers{
+		if(v <= 8000){
+			fmt.Println("Inseto!")
 		}else{
-			fmt.Printf("Inseto!\n")
-			
+			fmt.Println("Mais de 8000!")
 		}
 	}
 	
