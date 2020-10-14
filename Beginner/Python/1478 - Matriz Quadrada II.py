@@ -20,7 +20,10 @@ while True:
 
     for i in range(order):
         for j in range(order):
-            m_str += '{:>3d}'.format(m[i][j])
+            if j == 0:
+                m_str +=  str(m[i][j]).rjust(3, ' ')
+            else:
+                m_str +=  str(m[i][j]).rjust(4, ' ')
         m_str += '\n'
 
-    print(m_str, end='')
+    print(m_str)
