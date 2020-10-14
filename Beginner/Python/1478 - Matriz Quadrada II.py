@@ -5,16 +5,16 @@ while True:
 
     m = [[1]]
 
-    for i in range(1, order):
-        m[0].append(i + 1)
-
     for j in range(1, order):
         m.append([])
-        m[j].append(j + 1)
+        m[0].append(j + 1)
+
+    for i in range(1, order):
+        m[i].append(i + 1)
 
     for i in range(1, order):
         for j in range(1, order):
-            m[j].append(m[j-1][i-1])
+            m[i].append(m[i-1][j-1])
 
     m_str = ''
 
