@@ -21,9 +21,9 @@ while True:
     for i in range(order):
         for j in range(order):
             if j == 0:
-                m_str +=  str(m[i][j]).rjust(3, ' ')
+                m_str += str(m[i][j]).rjust(3, ' ')
             else:
-                m_str +=  str(m[i][j]).rjust(4, ' ')
+                m_str += str(m[i][j]).rjust(4, ' ')
         m_str += '\n'
 
     print(m_str)
